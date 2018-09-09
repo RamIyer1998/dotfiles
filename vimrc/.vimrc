@@ -9,14 +9,14 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
+Plugin 'chriskempson/base16-vim'
 
 syntax on
 
 set autoindent
 set smartindent
 
-colorscheme base16-atelier-forest-light
+colorscheme delek
 
 set number
 set ruler
